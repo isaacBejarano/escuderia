@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<link rel="shortcut icon" href="assets/JS.ico" type="image/x-icon" />
+		<title>Escuderia</title>
+	</head>
+
+	<body>
+		<header>
+			<hgroup>
+				<h1>Escuderia</h1>
+				<h2>
+					App d'una escuderia - herència de classes
+				</h2>
+			</hgroup>
+		</header>
+
+		<main>
+			<section id="btn-group">
+				<button id="btn1">ALTA</button>
+				<button id="btn2">BAIXA</button>
+
+				<div id="consulta">
+					<label for="consulta">CONSULTA</label>
+					<select id="selection">
+						<option value="" disabled selected></option>
+						<optgroup label="Escuderies"></optgroup>
+						<optgroup label="Bòlids"></optgroup>
+						<optgroup label="Pilots"></optgroup>
+						<optgroup label="Mecànics"></optgroup>
+					</select>
+				</div>
+			</section>
+
+			<!-- outlet -->
+			<section id="outlet"></section>
+		</main>
+
+		<footer>
+			<a href="https://github.com/isaacBejarano" target="_blanck">
+				https://github.com/isaacBejarano
+			</a>
+		</footer>
+
+		<script src="lib/main.js"></script>
+		<script src="lib/data.js"></script>
+		<script src="lib/select.js"></script>
+		<script src="app.js"></script>
+	</body>
+</html>

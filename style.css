@@ -1,0 +1,111 @@
+body {
+  box-sizing: border-box;
+  max-width: 800px;
+  margin: 0 auto auto;
+  background-color: gainsboro;
+  box-shadow: 0px 1px 3px 0px grey;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  user-select: none;
+  font-size: 16px;
+}
+
+/* header */
+header {
+  background-image: url("assets/mustang.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: luminosity;
+  background-color: #ffa17c;
+  box-shadow: inset 0px 0px 8px 0px black;
+}
+hgroup {
+  padding: 8rem 2rem 1rem;
+}
+h1,
+h2 {
+  margin: 0;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+}
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+  font-size: 1.3rem;
+  font-weight: lighter;
+  text-align: left;
+  padding-right: 195px;
+}
+/* main */
+main {
+  padding: 75px 30px 50px;
+  background-color: whitesmoke;
+}
+
+section#btn-group {
+  padding: 1rem 0 5rem;
+  display: flex;
+}
+section#btn-group button {
+  color: darkslategray;
+  margin: 0 10px 30px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ffa17c;
+  cursor: pointer;
+}
+section#btn-group button:hover {
+  color: initial;
+  border-color: darkgray;
+  background-color: white;
+}
+section#btn-group button:focus {
+  outline: none;
+}
+section#btn-group button:active {
+  color: #e4760b;
+  border-color: #ffa17c;
+}
+section#btn-group button,
+section#btn-group #consulta {
+  font-size: 1rem;
+  margin: 0 15px;
+}
+section#btn-group label {
+  color: darkslategray;
+  margin-right: 5px;
+}
+section#btn-group #consulta select:focus,
+section#btn-group #consulta select:hover {
+  outline: none;
+}
+section#btn-group #selection {
+  color: #e4760b;
+}
+optgroup {
+  color: dimgray;
+}
+option {
+  color: gray;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: whitesmoke;
+}
+footer a {
+  color: gray;
+  font-size: 0.8rem;
+  font-style: italic;
+}
+footer a:hover {
+  color: darkslategray;
+}
+
+/* dynamic class */
+.outlet {
+  padding: 15px;
+  margin-bottom: 30px;
+  box-shadow: 0px -8px 8px -2px #fa720280;
+}
